@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="admin" class="section">
+
+  <h2>Admin Panel</h2>
+
+  <h3>Mentors</h3>
+  <input id="mName" placeholder="Name">
+  <input id="mCourse" placeholder="Course">
+  <input id="mAge" placeholder="Age">
+  <input id="mSalary" placeholder="Salary">
+  <button onclick="addMentor()">Add Mentor</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Age</th>
+        <th>Salary</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="mentorTable"></tbody>
+  </table>
+
+  <h3>Students</h3>
+  <input id="sName" placeholder="Name">
+  <input id="sCourse" placeholder="Course">
+  <input id="sAge" placeholder="Age">
+  <input id="sTotalFee" placeholder="Total Fee">
+  <input id="sFeePaid" placeholder="Fee Paid">
+  <button onclick="addStudent()">Add Student</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Age</th>
+        <th>Total Fee</th>
+        <th>Fee Paid</th>
+        <th>Balance</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+  </table>
+
+  <h3>Courses</h3>
+  <input id="cName" placeholder="Course Name">
+  <input id="cDetails" placeholder="Course Details">
+  <input id="cMentor" placeholder="Mentor">
+  <input id="cPlacement" placeholder="Placement Details">
+  <button onclick="addCourse()">Add Course</button>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Course</th>
+        <th>Details</th>
+        <th>Mentor</th>
+        <th>Placement</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody id="courseTable"></tbody>
+  </table>
+
+</div>
+<script src="script.js"> 
+    
+</script>
+</body>
+</html>

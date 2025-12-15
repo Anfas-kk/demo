@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}
+
+
